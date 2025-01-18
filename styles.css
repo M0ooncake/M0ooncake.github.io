@@ -114,8 +114,8 @@ section h2 {
 
 /* Indentation for Bullet Points */
 ul {
-    padding-left: 50px; /* Adds indentation for the list */
-    list-style-type: disc; /* Ensures bullets are displayed */
+    padding-left: 10%; /* Adds indentation for the list */
+    
 }
 
 ul li {
@@ -507,9 +507,8 @@ footer {
     .profile-photo {
         max-width: 150px;
     }
-
+    
     .project-name {
-        position: absolute;
         bottom: 10px;
         justify-self: center;
         background: rgba(12, 12, 12, 0.7);
@@ -517,8 +516,8 @@ footer {
         padding: 5px;
         font-size: 0.6rem;
         border-radius: 10px;
-        text-align: center;
-
+       
+        
     }
     header {
         background: linear-gradient(135deg, #00ccad, #004c99);
@@ -559,7 +558,9 @@ footer {
         font-size: 0.7rem;
     
     }
-
+    ul {
+        margin-top: -10px;
+    }
     footer {
         padding: 10px;
     }
