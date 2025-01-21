@@ -104,9 +104,9 @@ section h2 {
 /* Text Box and Paragraph Formatting */
 .text-box {
     margin-left: -60px;
-    margin-right: -60px ;
+    margin-right: -60px;
     font-size: 1.2rem;
-    line-height: 1.6;
+    line-height: 1.4;
     background-color: rgba(155, 202, 192, 0.24);
     border-radius: 15px;
     padding: 5px 5px ;
@@ -626,7 +626,12 @@ footer {
         font-size: 0.9rem;
     }
     .text-box{
+       
         font-size: 0.8rem;
+    }
+    .mobile-text-box  {
+        margin-left: -130%; 
+        margin-right: 40%;
     }
     .dropbtn
     {
@@ -662,11 +667,9 @@ footer {
     }
     .alicePresskitPage{
         font-size: 75%;
-        
     }
     .alicePresskitPage p{
         font-size: 90%;
-
     }
     .alicePresskitPage iframe{
         width: 90%;
@@ -683,6 +686,10 @@ footer {
     }
     .instagram-button{
         max-width: 100%;
+    }
+    .mobile-image{
+        margin-left: -40%;
+        scale: 50%;
     }
 }
 
@@ -705,6 +712,10 @@ footer {
     }
     .alicePresskitPage .blog-btn{
         
+    }
+    .mobile-text-box  {
+        margin-left: 10%;
+      
     }
 }
 /* Bigger screens */
