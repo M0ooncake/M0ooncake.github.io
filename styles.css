@@ -273,7 +273,53 @@ h2 {
     background-color: #007acc;
     color: white;
 }
+/* tiktok button */
+.tiktok-button {
+    color: #ffffff;
+    background-color: #fc2c54;
+    padding: 4px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 5px
+}
+.tiktok-button:hover {
+    background-color: #000000;
+    color: white;
+}
 
+/* twitter button */
+.twitter-button {
+    color: #ffffff;
+    background-color: #1ea0ef;
+    padding: 4px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 5px
+}
+.twitter-button:hover {
+    background-color: #000000;
+    color: white;
+}
+
+/* instagram button */
+.instagram-button {
+    color: #ffffff;
+    background-color: #db2475;
+    padding: 4px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 5px
+}
+.instagram-button:hover {
+    background-color: #000000;
+    color: white;
+}
 /* Dropdown open state - show the menu on hover or focus */
 .dropdown:hover .dropdown-content, .dropdown:focus-within .dropdown-content {
     display: block;
