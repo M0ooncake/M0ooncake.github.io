@@ -275,6 +275,7 @@ h2 {
 }
 /* tiktok button */
 .tiktok-button {
+    max-width: 50%;
     color: #ffffff;
     background-color: #fc2c54;
     padding: 4px 16px;
@@ -291,6 +292,7 @@ h2 {
 
 /* twitter button */
 .twitter-button {
+    max-width: 50%;
     color: #ffffff;
     background-color: #1ea0ef;
     padding: 4px 16px;
@@ -307,6 +309,7 @@ h2 {
 
 /* instagram button */
 .instagram-button {
+    max-width: 50%;
     color: #ffffff;
     background-color: #db2475;
     padding: 4px 16px;
@@ -657,6 +660,30 @@ footer {
         margin: 0 20% 20px -20%; /* Spacing between paragraphs and buttons */
 
     }
+    .alicePresskitPage{
+        font-size: 75%;
+        
+    }
+    .alicePresskitPage p{
+        font-size: 60%;
+
+    }
+    .alicePresskitPage iframe{
+        width: 90%;
+        height: 60%;
+    }
+    .alicePresskitPage .blog-btn{
+        font-size: 60%;
+    }
+    .tiktok-button{
+        max-width: 100%;
+    }
+    .twitter-button{
+        max-width: 100%;
+    }
+    .instagram-button{
+        max-width: 100%;
+    }
 }
 
 /* Tablet and Larger Screens */
@@ -670,6 +697,14 @@ footer {
     .about-content {
         grid-template-columns: 1fr 3fr; /* Two columns: photo + description */
         text-align: left; /* Align text to the left */
+    }
+   
+    .alicePresskitPage iframe{
+        width: 90%;
+        height: 300px;
+    }
+    .alicePresskitPage .blog-btn{
+        
     }
 }
 /* Bigger screens */
