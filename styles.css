@@ -412,6 +412,10 @@ h2 {
 .portfolio-item a:hover img {
     transform: scale(1.05);
 }
+.portfolio-item a:hover .project-name {
+    translate: 0px 15px;
+    transform: scale(1.05);
+}
 
 .project-name {
    

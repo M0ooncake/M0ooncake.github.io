@@ -9,7 +9,7 @@
 
     <title>Colour Shift</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="imgs/colourShift.png">
+    <link rel="shortcut icon" href="imgs/ColourShift/colourShift.png">
 </head>
 <body>
 <header>
@@ -23,32 +23,14 @@
         </nav>
     </div>
     `
-    <!--
-    Notes on portfolio item construction
-    Bullet points over explanations.
-    quicker the better, notes on the bottom if you want to elaborate things.
-    the deep dive would be better on the bottom so the bullet points can be quickly
-    read through on top, logos for software used is good to make it more visual,
-    sort of list team size, achievements for what was done, roles you played in the 
-    project. Its a matter of avoiding a wall of text, essay style, those arent super
-    helpful, peoples attentions spans are to short for that these days.
     
-    overall
-    visuals are good, logos for software, engines, all that stuff.
-    Try to get an image real quick off the rip so it comes across the glance.
-    visuals visuals visuals. I compiled sprite sheets, show em off.
-    
-    
-    colour scheme, try and use more solid colours rather then gradient. The gradient
-    loses some contrast and loses some readability. 
-    -->
 </header>
 <!-- Parallax background -->
 <div class="parallax-background"></div>
 <section class="about-content" id="TopOfPage">
     <div>
-        <img src="imgs/UnityLogo.png" style="max-width: 50%; height: auto; margin: 0 auto; display: block">
-        <img src="imgs/visualStudioLogo.png" style="max-width: 50%; height: auto; margin: 0 auto; display: block">
+        <img src="imgs/SoftwareLogos/UnityLogo.png" style="max-width: 50%; height: auto; margin: 0 auto; display: block">
+        <img src="imgs/SoftwareLogos/visualStudioLogo.png" style="max-width: 50%; height: auto; margin: 0 auto; display: block">
     </div>
     <!-- ADD BUILD LINK NEAR THE TOP -->
     <div>
@@ -57,60 +39,81 @@
 
             <div class="text-box" style="padding: 10px; text-align: left ">
                 <ul>
-                    <li>Top Down Wave Survival</li>
+                    <li>Top-Down Wave Survival</li>
                     <li >Built in Unity</li>
                     <li>Programing Highlights</li>
                     <ul>
-                        <li>Stack Based Menus</li>
+                        <li>Stack-Based Menus</li>
+                        <ul>
+                            <li>Versatile backend</li>
+                            <li>Self-contained </li>
+                        </ul>
                         <li>UI Sprites</li>
+                        <ul>
+                            <li>Made pixel art keyboard arrow icons</li>
+                            <li>Made pixel art heart icons</li>
+                        </ul>
                         <li>HUD Design</li>
+                        <ul>
+                            <li>Placement of information</li>
+                            <li>What information to show off</li>
+                        </ul>
                     </ul>
-                   <li>Ease of Access</li>
+                   <li>Small Scale Collaboration Effort</li>
                 </ul>
             </div>
-            <!--<a href="downloadables/beyondTheHills/WebBuilds/index.html">
+            
+            <a href="downloadables/ColourShift/WebBuild/index.html">
                 <button class="hobbies-btn">Playable Web Build</button>
             </a>
-            <a href="downloadables/beyondTheHills/BeyondTheHills.apk" download="BeyondTheHills.apk">
-                <button class="hobbies-btn">Downloadable Android Build</button>
-            </a>-->
+            <a href="downloadables/ColourShift/ColourShift.zip" download="ColourShift.zip">
+                <button class="hobbies-btn">Downloadable Windows Build</button>
+            </a>
         </div>
     </div>
 </section>
 <section>
     <div class="container">
+        <h1 style="text-align:center">For Those Who Want The Details</h1>
         <h2 style="text-align:center">Beginning</h2>
-        <h1 style="text-align:center">The Details</h1>
-        <div style="display: grid; grid-template-columns: 1fr 2fr;" class="alicePresskitPage" >
-            
-            <img src="imgs/gifs/colourShiftRed.gif" class="mobile-image">
-            
-            <p class="mobile-text-box text-box" >
+        <div >
+            <p class="text-box">
                 &emsp; At the start, it took us awhile to figure out what we wanted to do. And how to go about doing it.
                 At this point, it was our first time touching GitHub. So it took us awhile to get started. 
-                We pitched various game ideas, from multiplayer tower defense games to, this. 
+                We pitched various game ideas, from multiplayer tower defense games to eventually this. 
                 <br><br>
-                &emsp; The original game concept was created by Emmanuel SC, and the rest of the time
+                &emsp; The original game concept was created by Emmanuel SC, and the rest of the team
                 quite liked the idea he put forth. So we started organising into various teams, 
                 dividing responsibility up between us.
                 <br><br>
+                <img src="imgs/gifs/colourShiftRed.gif" style="display: block; margin: 0 auto">
+                <br>
                 &emsp;  The User Interface was my primary responsibility, with the aid from Piper T, we got started.
-                As the weeks rolled on it started to take shape, and we were discovering different ways to approach 
-                menu navigation. {Add Images!!}
+                As the weeks rolled on, it started to take shape, and we were discovering different ways to approach 
+                menu navigation. 
+                <br><br>
+                
             </p>
         </div>
         <h2 style="text-align:center">Menu Backend</h2>
         <p class="text-box">
+            <br>
+            <img src="imgs/ColourShift/CSOldCode.png" style="display: block; margin: 0 auto; height: auto; max-width: 80%">
+            <br>
             &emsp; The menu initially worked by enabling and disabling the respective game objects.
             It wasn't a fantastic solution, but it worked for that. As the project progressed, and
             we needed to start showing it to be graded. I was rightly flamed pretty good by the Instructor 
             at the time. He explained a different way to go about it, asking if I had even heard of what a 
             menu stack was. But instead of just dunking on me, he opened the door to exploration.
             <br><br>
+            <img src="imgs/ColourShift/CSCodePop.png" style="display: block; margin: 0 auto; height: auto; max-width: 80%">
+            <br>
             &emsp; He offered guidance on where to look. Some different concepts to look into, and pathways 
             that could be traveled. Thus, I went and revamped the whole system, rebuilding it from the ground
             up. After it was complete, he jokingly said something along the lines of 
-            <br><br> &emsp; "Well why the hell didn't you do this the first time?"
+            
+            <br><br> &emsp; "Well why the hell didn’t you do this the first time?"
+            <br><br>
         </p>
 
         
@@ -119,14 +122,20 @@
         <h2 style="text-align:center">Closing Notes</h2>
         <p class="text-box">
             &emsp; We needed some sprites to be quickly put together for the HUD. So I put together 
-            the heart sprites, and the keyboard arrow sprites to show what the combo was to colour.
+            the heart sprites, and the keyboard arrow sprites to show what the combo was to change to that colour.
             <br><br>
+            
+                <img src="imgs/ColourShift/KeyboardIcons.png" style="display: block; margin: 0 auto; height: auto; max-width: 50%">
+                <img src="imgs/ColourShift/HeartIcons.png" style="display: block; margin: 0 auto; height: auto; max-width: 50%">
+            
+            <br>
             &emsp; That small bit of pixel art has interested me into the art-form enough that I have started
             exploring it since as well.
             <br><br>
             &emsp; This project came together in about 2 months over all, so much has been learned from it,
             it was a completely different experience working with a large group instead of solo. And it really 
-            fanned the flames of passion for game making, seeing what can be done in a large group hands on.
+            fanned the flames of passion for game-making, seeing what can be done in a large group hands on.
+            <br><br>
         </p>
         
         
@@ -180,7 +189,7 @@
             <div class="portfolio-items">
                 <div class="portfolio-item">
                     <a href="https://www.linkedin.com/in/makenziethomson">
-                        <img src="../imgs/LI-In-Bug.png" style="max-width: 40%">
+                        <img src="../imgs/SoftwareLogos/LI-In-Bug.png" style="max-width: 40%">
 
                     </a>
                 </div>
