@@ -103,11 +103,10 @@ section h2 {
 
 /* Text Box and Paragraph Formatting */
 .text-box {
-    margin-left: -60px;
-    margin-right: -60px;
+   width: fit-content;
     font-size: 1.2rem;
     line-height: 1.4;
-    background-color: rgba(155, 202, 192, 0.24);
+    background-color: rgba(0, 0, 0, 0.35);
     border-radius: 15px;
     padding: 5px 5px ;
 }
@@ -167,20 +166,11 @@ body {
 }
 
 
-
-
-
-
 h2 {
     color: #FFEDFA;
     margin-bottom: 10px;
 }
 
-/* Layout */
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
 
 
 
@@ -421,7 +411,7 @@ h2 {
    
     bottom: 20px;
     justify-self: center;
-    background: rgba(12, 12, 12, 0.7);
+    background: rgba(0, 0, 0, 0.35);
     color: #ffffff;
     padding: 5px;
     font-size: 0.9rem;
@@ -565,7 +555,7 @@ footer {
     .project-name {
         bottom: 10px;
         justify-self: center;
-        background: rgba(12, 12, 12, 0.7);
+        background: rgb(0, 0, 0, 0.35);
         color: #ffffff;
         padding: 5px;
         font-size: 0.6rem;
@@ -574,8 +564,8 @@ footer {
         
     }
     header {
-        background: linear-gradient(135deg, #00ccad, #004c99);
-        color: #fff;
+        background: linear-gradient(135deg, #E195AB, #De3163);
+        color: #ffffff;
         padding: -5px 0;
         position: sticky;
         top: 0;
