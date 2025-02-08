@@ -347,14 +347,22 @@ h2 {
 .profile-photo-container {
     display: flex; /* Flexbox for centering */
     justify-content: center;
+
 }
 .profile-photo {
-    max-width: 100%; /* Responsive image */
-    height: auto; /* Maintain aspect ratio */
+    height: 150%;
+    max-width: 80%; /* Responsive image */
+    max-height: 150%; /* Maintain aspect ratio */
     border-radius: 50%; /* Circular image */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for aesthetics */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for aesthetics */
 }
 
+.portfolio-software-logos{
+    max-width: 50%; 
+    height: auto; 
+    margin: 0 auto; 
+    display: block;
+}
 /* Description Styling */
 .description {
     padding: 20px;
@@ -563,6 +571,10 @@ footer {
        
         
     }
+    .portfolio-software-logos{
+        max-width: 30%;
+        
+    }
     header {
         background: linear-gradient(135deg, #E195AB, #De3163);
         color: #ffffff;
@@ -604,6 +616,9 @@ footer {
     }
     ul {
         margin-top: -10px;
+    }
+    li{
+        padding: 1%;
     }
     footer {
         padding: 10px;
