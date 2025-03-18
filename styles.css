@@ -111,6 +111,11 @@ section h2 {
     padding: 5px 5px ;
 }
 
+p img {
+    display: inline-block;
+    margin-right: 10px; /* Adjusts spacing */
+    vertical-align: top; /* Ensures text can appear below */
+}
 /* Indentation for Bullet Points */
 ul {
     padding-left: 10%; /* Adds indentation for the list */
@@ -700,6 +705,11 @@ footer {
     .mobile-image{
         margin-left: -40%;
         scale: 50%;
+    }
+    p img {
+        display: block;
+        margin: 0 auto;
+        padding: 5px;
     }
 }
 
