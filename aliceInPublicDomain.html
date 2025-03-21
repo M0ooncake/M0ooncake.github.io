@@ -233,13 +233,36 @@
             that was not really an option. It was <a href="https://www.linkedin.com/in/hishamata/">Hisham Ata</a>,
             one of our instructors during my course at Toronto Film School, who pushed me into CommonUI.
             I am very glad he did so. The amount of time still saved by using it, would be hard to calculate.
-            
+            <br><br>
+            &emsp; The dialogue system. That was a rough one to figure out. I had built out a data table that 
+            contained all the information that should be needed for making a dialogue box. 
+            With things like "SpeakerName, NextRow"... etc etc. And anytime a line of dialogue needed to be added, 
+            one simply needed to look at the Data Table, and enter in the various information needed. 
+            <br><br>
+            <img src="imgs/aliceImages/UESS7.png" style=" max-width: 300px; border-radius: 15px">
+            <img src="imgs/aliceImages/UESS6.png" style=" max-width: 100%; border-radius: 15px">
+            <br><br>
+            It also included a section for a voice line, which, if there was a voice line file present, then
+            it would get the length of the file, and divide that by the amount of characters in the 
+            CompleteText variable. That way as I printed each character one by one, it would sync with the speaker.
+            By the time the speaker was done, all the text would be there as well. 
+            <br> Or so I thought.
+            <br> &emsp; The issue was. I hadn't even considered that there would need to be dead space at 
+            the start or end of the voice line. Which my formula didn't account for. But then the issue was, each
+            file had a slightly different amount of dead space, with some voice lines needing far far more
+            than others. After quite awhile of tweaking a few variables, I finally got a formula that
+            seemed to work pretty well with the various amounts of dead space. Taking the duration of the 
+            mp3 file, editing that, and then finally dividing it by the length of the actual line.
+            If there was no voice line present at all, then it would have a default speed. 
+            <br><br>
+            <img src="imgs/aliceImages/UESS5.png" style=" max-width: 100%; border-radius: 15px">
+            <br><br>
         </p>
         
         
         
         <br>
-        <h2 style="text-align:center">Special Thanks and Acknowledgements</h2>
+        <h2 style="text-align:center">Special Thanks</h2>
         <p class="text-box">
            &emsp; Through term 6, there were some who I had the pleasure of working closer with then others.
             Whether we had to thug it out together or just because we worked along side one another, 
