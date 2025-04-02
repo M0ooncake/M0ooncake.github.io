@@ -23,25 +23,6 @@
         </nav>
     </div>
     
-    <!--
-    Notes on portfolio item construction
-    Bullet points over explanations.
-    quicker the better, notes on the bottom if you want to elaborate things.
-    the deep dive would be better on the bottom so the bullet points can be quickly
-    read through on top, logos for software used is good to make it more visual,
-    sort of list team size, achievements for what was done, roles you played in the 
-    project. Its a matter of avoiding a wall of text, essay style, those arent super
-    helpful, peoples attentions spans are to short for that these days.
-    
-    overall
-    visuals are good, logos for software, engines, all that stuff.
-    Try to get an image real quick off the rip so it comes across the glance.
-    visuals visuals visuals. I compiled sprite sheets, show em off.
-    
-    
-    colour scheme, try and use more solid colours rather then gradient. The gradient
-    loses some contrast and loses some readability. 
-    -->
 </header>
 <!-- Parallax background -->
 <div class="parallax-background"></div>
@@ -89,35 +70,53 @@
                 C++, with the large amount of customized features and stytax. In effect, coding directly
                 in Unreal Engine is more like C+++. Some odd in-between. But I digress!
                 <br><br>
-                &emsp; We as a class intitailly followed along with Unreal's guide on making a simple
+                &emsp; We as a class initially followed along with Unreal's guide on making a simple
                 FPS game in C++, which can be found 
                 <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/first-person-shooter-tutorial-in-unreal-engine?application_version=5.3">Here.</a>
-                But after a certain point, we needed to diverge. If we kept following along with it we would really stop learning 
-                after awhile.
+                But after a certain point, we needed to diverge. If we kept following along with it we would stop
+                learning.
                 <br><br>
-                &emsp;  Upon Diverging we were given the option to make a mini GDD to make our game pitch
+                &emsp;  Upon Diverging we were given the option to make a mini GDD pitch what we wanted to turn this 
+                small project into, or remake a previous terms Unreal Engine project with C++. I choose to do
+                my own and make a small aim trainer.
             </p>
         </div>
-        <h2 style="text-align:center">Menu Backend</h2>
+        <br>
+        <h2 style="text-align:center">Game Modes and UI</h2>
         <p class="text-box">
-            &emsp; At the start, the menu worked by enabling and disabling the respective game objects.
-            go on about changing to stack based after being politely flamed by Danny Tran. {Add LOTS Images!!}
+            &emsp; I wanted this to have multiple modes. Making them be both time related meant that 
+            I would be able to reuse a lot of things already built. I settled on a Count Down mode, 
+            where you have 15 seconds to score as high as possible. 
+            <br> And a Count Up mode, where the goal was to score 10 hits as fast as possible. 
+            <br><br>&emsp; That setup would allow me to quickly prototype both modes.
+            Only needing to adjust timer logic slightly. The rest would almost all entirely work 
+            right out of the box.
+            <br><br>
+            <img src="imgs/AimTrainer/UESS2.png" style=" width: 620px; border-radius: 15px">
+            <img src="imgs/AimTrainer/UESS1.png" style=" max-width: 300px; border-radius: 15px">
+      
+            <br><br>&emsp; Working with Slate UI was interesting. Given it has great parallels with 
+            web development and CSS. As I was starting to<a href="blogs/blog1.html"> build out this website</a>
+            around the same time, I grasped the fundamentals of it quickly. Getting 
+            functional things up and running swiftly.
+            <br><br>
+            <img src="imgs/AimTrainer/UESS4.png" style=" width: 400px; border-radius: 15px">
+            <img src="imgs/AimTrainer/UESS5.png" style=" width: 400px; border-radius: 15px">
+            <br><br>
+            <img src="imgs/AimTrainer/UESS7.png" style=" width: 400px; border-radius: 15px">
+            <img src="imgs/AimTrainer/UESS6.png" style=" width: 400px; border-radius: 15px">
         </p>
-
         
-        
-
-        <h2 style="text-align:center">Unsure of a third section</h2>
+        <br>
+        <h2 style="text-align:center">Special Thanks</h2>
         <p class="text-box" style="justify-self: center">
-           &emsp; Maybe talk about the project in general?
+           &emsp; To the course Instructor <a href="https://www.linkedin.com/in/-dannytran/">Danny Tran</a>
+            <br> He was always very good at grasping what different peoples needs were when it came
+            to learning. I honestly do think I would have gotten as far as I have if he 
+            weren't there to give a good kick in the pants now and then. He was 
+            highly skilled at giving feedback and pointers on where to improve. 
+            Always opening a door to exploration and advancement rather than simple criticism.
         </p>
-        
-        
-        
-        <h2 style="text-align: center">Extra Section?</h2>
-        <div style="display: grid; grid-template-columns: 1fr 1fr; justify-content: space-between">
-        </div>
-        
     </div>
 </section>
 <!-- Contact section -->
@@ -132,7 +131,6 @@
                 <div class="portfolio-item">
                     <a href="https://www.linkedin.com/in/makenziethomson">
                         <img src="../imgs/SoftwareLogos/LI-In-Bug.png" style="max-width: 40%">
-
                     </a>
                 </div>
             </div>

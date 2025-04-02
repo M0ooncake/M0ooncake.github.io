@@ -447,7 +447,9 @@ h2 {
     margin-bottom: 20px; /* Optional margin for spacing */
 }
 
-
+.Contact-Item a:hover img {
+    transform: scale(1.05);
+}
 /*=======================*/
 /*  Blog Related Styles  */
 /*=======================*/
@@ -710,6 +712,7 @@ footer {
         display: block;
         margin: 0 auto;
         padding: 5px;
+        max-width: 100%;
     }
 }
 
