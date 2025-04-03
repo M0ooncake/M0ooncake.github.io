@@ -11,6 +11,7 @@
 /*=================*/
 /* General Reset */
 * {
+    font-family: OpenDyslexic, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -45,7 +46,7 @@ header .container {
 header h1 {
     margin: 0; /* Removes unnecessary margin */
     text-align: center; /* Ensures text is centered */
-    font-size: 2rem; /* Adjust as needed */
+    font-size: 1.5rem; /* Adjust as needed */
 }
 
 /* Navigation Menu */
@@ -59,15 +60,17 @@ nav ul {
 
 /* Navigation Items */
 nav ul li {
-    margin: 0 15px; /* Adds spacing between list items */
+ 
+    
 }
 
 /* Navigation Links */
 nav ul li a {
     color: #ffffff; /* Text color */
     text-decoration: none; /* Removes underline */
-    font-weight: bold; /* Makes text bold */
+   
     transition: color 0.3s ease; /* Adds smooth color transition on hover */
+    
 }
 
 nav ul li a:hover {
@@ -227,13 +230,9 @@ h2 {
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: rgba(0, 122, 204, 0);
-    color: white;
-    border: none;
+
     font-family: OpenDyslexic, sans-serif;
-    font-size: 1.1rem;
-    cursor: pointer;
-    margin-top: -5px;
+    font-size: 1rem;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -249,7 +248,7 @@ h2 {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 5px;
     margin-top: 5px;
@@ -327,7 +326,7 @@ h2 {
     background:#CCDF92;
     color: #De3163;
     border: none;
-    padding: 10px 20px;
+    padding: 5px 10px;
     margin: 5px;
     border-radius: 5px;
     font-size: 1rem;
@@ -650,11 +649,7 @@ footer {
         margin-left: -130%; 
         margin-right: 40%;
     }
-    .dropbtn
-    {
-        text-align: center;
-        font-size: 0.8rem;
-    }
+
     
     .profile-photo {
         margin: auto;
